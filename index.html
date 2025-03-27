@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicine OCR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .upload-section {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+        }
+        .results-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .card {
+            flex: 1;
+            min-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .detail-section {
+            margin-bottom: 15px;
+        }
+        .detail-section h3 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+        #extractedText {
+            white-space: pre-wrap;
+            word-break: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .option-section {
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .option-toggle {
+            cursor: pointer;
+            display: inline-block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Medicine Label OCR</h1>
+        <p>Upload an image of a medicine label to extract and filter important information such as medicine name, manufacturing date, expiry date, and ingredients.</p>
+        
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            
+            <div class="option-section">
+                <label class="option-toggle">
+                    <input type="checkbox" id="useOllama"> Use Ollama (TinyLLaMA) for information extraction
+                </label>
+                <p class="note">Note: Ollama must be installed and running. Run 'ollama pull tinyllama' in your terminal first.</p>
+            </div>
+            
+            <button id="extractText">Extract Text</button>
+            
+            <div class="option-section" style="margin-top: 20px;">
+                <h3>Debugging Options</h3>
+                <button id="testOcr" style="background-color: #007bff; margin-right: 10px;">Test OCR API Only</button>
+                <button id="testOllama" style="background-color: #6c757d;">Test Ollama Connection</button>
+            </div>
+        </div>
+        
+        <div class="results-section">
+            <div class="card">
+                <h2>Filtered Medicine Details</h2>
+                <div id="medicineDetails">
+                    <!-- Medicine details will be displayed here -->
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2>Raw Extracted Text</h2>
+                <div id="extractedText">
+                    <!-- OCR results will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="ocr.js"></script>
+</body>
+</html>
