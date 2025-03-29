@@ -1,7 +1,5 @@
 # Medicine Label OCR
 
-A web application that extracts structured information from medicine labels using OCR and AI.
-
 ## Features
 
 - Upload medicine label images
@@ -9,14 +7,6 @@ A web application that extracts structured information from medicine labels usin
 - Process and structure text using Google Gemini API
 - Display extracted medicine details in a user-friendly format
 - Real-time error handling and feedback
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- OCR.space API
-- Google Gemini API
 
 ## Setup
 
@@ -42,7 +32,6 @@ cd medicine-ocr
 
 The application extracts the following details from medicine labels:
 - Medicine Name
-- Batch Number
 - Manufacturing Date
 - Expiry Date
 - Ingredients
