@@ -71,14 +71,3 @@ The application works on modern browsers that support:
 - For production use, consider moving API calls to a backend server
 - Implement proper API key management and security measures
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
