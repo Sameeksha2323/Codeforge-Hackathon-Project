@@ -101,13 +101,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 console.log("Updated medicine name:", data.medicineName);
             }
             
-            // Update batch number
-            const batchNumberInput = medicineDetails.querySelector("#batchNumber");
-            if (batchNumberInput) {
-                batchNumberInput.value = data.batchNumber || '';
-                console.log("Updated batch number:", data.batchNumber);
-            }
-            
             // Update manufacturing date
             const mfgDateInput = medicineDetails.querySelector("#manufacturingDate");
             if (mfgDateInput) {
@@ -145,7 +138,6 @@ document.addEventListener("DOMContentLoaded", function () {
         
         const details = [
             { label: "Medicine Name", value: data.medicineName },
-            { label: "Batch Number", value: data.batchNumber },
             { label: "Manufacturing Date", value: data.manufacturingDate },
             { label: "Expiry Date", value: data.expiryDate },
             { label: "Ingredients", value: data.ingredients }
