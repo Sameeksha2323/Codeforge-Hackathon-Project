@@ -72,11 +72,34 @@
             border-radius: 5px;
             background-color: #f9f9f9;
         }
-        .option-toggle {
-            cursor: pointer;
-            display: inline-block;
+        .error-message {
+            color: #dc3545;
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 4px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .medicine-details {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        .detail-item {
             margin-bottom: 10px;
-            font-weight: bold;
+            padding: 8px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .detail-item strong {
+            color: #495057;
+            margin-right: 8px;
+        }
+        .detail-item:last-child {
+            margin-bottom: 0;
         }
     </style>
 </head>
@@ -88,19 +111,11 @@
         <div class="upload-section">
             <input type="file" id="imageUpload" accept="image/*">
             
-            <div class="option-section">
-                <label class="option-toggle">
-                    <input type="checkbox" id="useOllama"> Use Ollama (TinyLLaMA) for information extraction
-                </label>
-                <p class="note">Note: Ollama must be installed and running. Run 'ollama pull tinyllama' in your terminal first.</p>
-            </div>
-            
             <button id="extractText">Extract Text</button>
             
             <div class="option-section" style="margin-top: 20px;">
                 <h3>Debugging Options</h3>
-                <button id="testOcr" style="background-color: #007bff; margin-right: 10px;">Test OCR API Only</button>
-                <button id="testOllama" style="background-color: #6c757d;">Test Ollama Connection</button>
+                <button id="testOcr" style="background-color: #007bff;">Test OCR API Only</button>
             </div>
         </div>
         
@@ -108,7 +123,30 @@
             <div class="card">
                 <h2>Filtered Medicine Details</h2>
                 <div id="medicineDetails">
-                    <!-- Medicine details will be displayed here -->
+                    <div class="detail-section">
+                        <label for="medicineName">Medicine Name:</label>
+                        <input type="text" id="medicineName" readonly>
+                    </div>
+                    <div class="detail-section">
+                        <label for="batchNumber">Batch Number:</label>
+                        <input type="text" id="batchNumber" readonly>
+                    </div>
+                    <div class="detail-section">
+                        <label for="manufacturingDate">Manufacturing Date:</label>
+                        <input type="text" id="manufacturingDate" readonly>
+                    </div>
+                    <div class="detail-section">
+                        <label for="expiryDate">Expiry Date:</label>
+                        <input type="text" id="expiryDate" readonly>
+                    </div>
+                    <div class="detail-section">
+                        <label for="ingredients">Ingredients:</label>
+                        <textarea id="ingredients" readonly></textarea>
+                    </div>
+                    <div class="detail-section">
+                        <label for="rawText">Raw Text:</label>
+                        <textarea id="rawText" readonly></textarea>
+                    </div>
                 </div>
             </div>
             
@@ -121,6 +159,6 @@
         </div>
     </div>
     
-    <script src="ocr.js"></script>
+    <script type="module" src="ocr.js"></script>
 </body>
 </html>
