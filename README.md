@@ -126,26 +126,5 @@ Implement blockchain-based tracking to ensure transparency, authenticity, and le
 *📊 Analytics Dashboard for Stakeholders
 Introduce an advanced dashboard offering real-time analytics for NGOs, donors, and healthcare authorities to track impact, inventory, and optimize supply-demand chains.
 
-## Error Handling
 
-The application includes comprehensive error handling for:
-- Invalid file types
-- API rate limits
-- Network errors
-- OCR processing errors
-- Text parsing errors
-
-## Browser Support
-
-The application works on modern browsers that support:
-- ES6+ JavaScript
-- Fetch API
-- File API
-- FormData API
-
-## Security Notes
-
-- API keys are currently hardcoded in the frontend code
-- For production use, consider moving API calls to a backend server
-- Implement proper API key management and security measures
 
