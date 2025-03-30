@@ -43,19 +43,19 @@ Ensures inclusivity for NGOs, hospitals, and rural recipients.
 ## Dependencies
 
 1. Frontend: 
-Node.js (Latest LTS)
-React.js, Next.js, Vite
-Tailwind CSS
-Supabase SDK
-Leaflet(For map integration)
+Node.js (Latest LTS),
+React.js, Next.js, Vite,
+Tailwind CSS,
+Supabase SDK,
+Leaflet(For map integration),
 Recharts(for anayltics implementation)
 
 
 3. Backend:
-Python 3.9+
-PostgreSQL (via Supabase)
+Python 3.9+,
+PostgreSQL (via Supabase),
 OCR.space API, 
-Google studio GEMINI(1.5 Pro) API key
+Google studio GEMINI(1.5 Pro) API key,
 
 
 ## Setup Instructions 
