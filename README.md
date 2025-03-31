@@ -96,18 +96,7 @@ Google studio GEMINI(1.5 Pro) API key,
 
 1. Click "Choose File" to upload a medicine label image
 2. Click "Extract Text" to process the image
-4. View the extracted information in the form fields and formatted display
-
-
-
-## Team Members
-*Sameeksha Gupta (3rd Year) - Backend Development
-
-*Deepanshi (3rd Year) - AI & OCR Integration
-
-*Tasneem Ahmed (3rd Year) - Frontend Development
-
-*Soumya Garg (2nd Year) - Database & API Integration
+4. View the extracted information in the form fields and formatted display.
 
 
 ## License
