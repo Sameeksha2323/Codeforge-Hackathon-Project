@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 200 25% 98%;
+    --foreground: 200 50% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 50% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 50% 10%;
+
+    --primary: 201 76% 17%;
+    --primary-foreground: 200 25% 98%;
+
+    --secondary: 190 60% 59%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 10% 92%;
+    --muted-foreground: 200 50% 35%;
+
+    --accent: 32 95% 54%;
+    --accent-foreground: 200 50% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 200 20% 88%;
+    --input: 200 20% 88%;
+    --ring: 201 76% 17%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 200 50% 10%;
+    --foreground: 200 25% 98%;
+
+    --card: 200 50% 8%;
+    --card-foreground: 200 25% 98%;
+
+    --popover: 200 50% 8%;
+    --popover-foreground: 200 25% 98%;
+
+    --primary: 200 25% 98%;
+    --primary-foreground: 201 76% 17%;
+
+    --secondary: 190 60% 45%;
+    --secondary-foreground: 200 25% 98%;
+
+    --muted: 200 50% 15%;
+    --muted-foreground: 200 25% 65%;
+
+    --accent: 32 95% 45%;
+    --accent-foreground: 200 25% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 200 25% 98%;
+
+    --border: 200 50% 20%;
+    --input: 200 50% 20%;
+    --ring: 200 25% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl mb-6;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl mb-4;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .glassmorphism {
+    @apply bg-white/80 backdrop-blur-lg border border-white/60 shadow-soft;
+  }
+}
+
+/* Leaflet custom marker colors */
+.orange-marker {
+  filter: hue-rotate(30deg) saturate(2);
+}
+
+.blue-marker {
+  filter: hue-rotate(220deg) saturate(1.5);
+}
