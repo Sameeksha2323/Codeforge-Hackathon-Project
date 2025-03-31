@@ -13,7 +13,7 @@ MediiShare is an AI-powered platform designed to reduce medical waste and improv
 
 By combining AI, OCR, and smart logistics, MediiShare ensures efficient, verified, and timely delivery of medicines—transforming waste into life-saving support.
 
-##  Project Overview
+##  Meet Our Team
 Track: Open Innovation
 
 | Name | Year | College |
