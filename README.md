@@ -20,7 +20,7 @@ Track: Open Innovation
 |------|------|--------|
 | Sameeksha | 3rd | DTU |
 | Soumya Garg | 2nd | DTU |
-| Deepanshi Bansal | 3rd | DTU |
+| Deepanshi | 3rd | DTU |
 | Tasneem Ahmed | 3rd | DTU |
 
 ## Key Features 
