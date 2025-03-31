@@ -13,6 +13,16 @@ MediiShare is an AI-powered platform designed to reduce medical waste and improv
 
 By combining AI, OCR, and smart logistics, MediiShare ensures efficient, verified, and timely delivery of medicines—transforming waste into life-saving support.
 
+##  Project Overview
+Track: Open Innovation
+
+| Name | Year | College |
+|------|------|--------|
+| Sameeksha | 3rd | DTU |
+| Soumya Garg | 2nd | DTU |
+| Deepanshi Bansal | 3rd | DTU |
+| Tasneem Ahmed | 3rd | DTU |
+
 ## Key Features 
 *🔍 OCR-Based Medicine Verification
 Extracts medicine names, expiry dates, and active ingredients from uploaded images.
