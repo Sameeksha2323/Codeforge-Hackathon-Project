@@ -26,7 +26,7 @@ Track: Open Innovation
 ## Key Features 
 *🔍 OCR-Based Medicine Verification
 Extracts medicine names, expiry dates, and active ingredients from uploaded images.
-Uses tools like OCR Space, Google Vision API, and AWS Textract for accurate data capture.
+Uses tools like OCR Space and Google AI Studio API for accurate data capture.
 
 *🧠  AI-Based Matching of Medicines
 Analyzes similarity in composition and ingredient match between donated and required medicines.
