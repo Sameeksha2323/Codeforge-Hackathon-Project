@@ -44,7 +44,7 @@ Ensures inclusivity for NGOs, hospitals, and rural recipients.
 ## Problems Solved
 *Medical Waste: Tackles the ₹15,000–₹18,000 crore worth of unused medicines wasted annually in India.
 
-*Lack of Access: Bridges the gap for low-income communities that lack basic medicines.
+*Lack of Access: Bridges the gap for low-income communities that lack basic medicines..
 
 *Environmental Pollution: Reduces pharmaceutical waste that pollutes soil and water.
 
