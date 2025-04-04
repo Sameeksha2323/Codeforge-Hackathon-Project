@@ -50,10 +50,8 @@ By combining **AI, OCR, and smart logistics**, MediShare ensures **verified, eff
 ## 🔗Dependencies
 
 1. **Frontend**: 
-Node.js (Latest LTS),
-React.js, Next.js, Vite,
+React.js, Typescript, Vite,
 Tailwind CSS,
-Supabase SDK,
 Leaflet(For map integration),
 Recharts(for anayltics implementation)
 
@@ -64,6 +62,18 @@ PostgreSQL (via Supabase),
 OCR.space API, 
 Google studio GEMINI(1.5 Pro) API key.
 
+
+3. **Deployment**:
+Vercel
+
+3. **Microservices**:
+FAST API
+FLASK API
+---
+📺 **Demo Video**: https://youtu.be/ybJOB2mnxnA
+📺 **Deployed Website**: https://medishare-codeforge-hackathon.vercel.app/
+📺 **Project PPT**: https://drive.google.com/file/d/1lUZlGHH2q16Q0lDHgLI5_Pz3NlVYDahl/view
+---
 
 ## 🛠️Setup Instructions 
 1. Clone the repository :
@@ -111,20 +121,6 @@ Google studio GEMINI(1.5 Pro) API key.
 ✔ Approve/reject:  
    - *Donations* submitted by donors.  
    - *Requests* made by recipients to prevent misuse.  
-
-📺 **Demo Video**: https://youtu.be/ybJOB2mnxnA
-
----
-
-## 👥 Meet Our Team  
-**Track:** Open Innovation  
-
-| Name          | Year | College |
-|--------------|------|---------|
-| Sameeksha   | 3rd  | DTU     |
-| Soumya Garg | 2nd  | DTU     |
-| Deepanshi   | 3rd  | DTU     |
-| Tasneem Ahmed | 3rd | DTU |
 
 ---
 
