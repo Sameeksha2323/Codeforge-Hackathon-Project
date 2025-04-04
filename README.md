@@ -2,7 +2,7 @@
 
 # 🏥 MediShare: Smart Medicine Redistribution Platform
 
-MediShare is an **AI-powered** platform that **reduces medical waste** and **improves healthcare access** by enabling the **smart redistribution** of unused, sealed medicines.  
+MediShare is an **AI & OCR-powered** platform that **reduces medical waste** and **improves healthcare access** by enabling the **smart redistribution** of unused, sealed medicines.  
 
 ## 🌍 Project Overview  
 MediShare creates a **three-level donation ecosystem**:  
