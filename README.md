@@ -15,6 +15,17 @@ By combining **AI, OCR, and smart logistics**, MediShare ensures **verified, eff
 
 ---
 
+## 👥 Meet Our Team  
+**Track:** Open Innovation  
+
+| Name          | Year | College |
+|--------------|------|---------|
+| Sameeksha   | 3rd  | DTU     |
+| Soumya Garg | 2nd  | DTU     |
+| Deepanshi   | 3rd  | DTU     |
+| Tasneem Ahmed | 3rd | DTU |
+
+---
 
 ## 🚀 Key Features  
 
