@@ -67,7 +67,7 @@ Google studio GEMINI(1.5 Pro) API key.
 Vercel
 
 3. **Microservices**:
-FAST API
+FAST API,
 FLASK API
 ---
 📺 **Demo Video**: https://youtu.be/ybJOB2mnxnA
