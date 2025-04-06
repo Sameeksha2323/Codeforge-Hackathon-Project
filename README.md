@@ -38,6 +38,17 @@ By combining **AI, OCR, and smart logistics**, MediShare ensures **verified, eff
 
 ---
 
+## 🚀 LOGIN DETAILS FOR WEBSITE  
+
+| Role  | Login | Password | 
+|----------|------------|
+| Admin | admin1@gmail.com | 1234 |
+| Donor | donor1@gmail.com | 1234 |
+| NGO | ngo1@gmail.com | 1234 |
+| Recipient | recipient1@gmail.com | 1234 |
+
+---
+
 
 ## 🎯 Problems Solved  
 
